@@ -4,7 +4,7 @@
     "parameters": {
         "virtualMachine_name": {
             "type": "string",
-            "defaultValue": "arbitrum"
+            "defaultValue": "testnode"
         },
         "adminUsername": {
             "type": "string",
@@ -12,7 +12,7 @@
         },
         "vmSize": {
             "type": "string",
-            "defaultValue": "Standard_D4s_v4"
+            "defaultValue": "Standard_D8ds_v4"
         },
         "adminPassword": {
             "type": "securestring"
@@ -101,7 +101,7 @@
                             "description": "description",
                             "protocol": "Tcp",
                             "sourcePortRange": "*",
-                            "destinationPortRange": "8547",
+                            "destinationPortRange": "8545",
                             "sourceAddressPrefix": "*",
                             "destinationAddressPrefix": "*",
                             "access": "Allow",
@@ -110,30 +110,16 @@
                         }
                     },
                     {
-                        "name": "WebSocket",
+                        "name": "Management",
                         "properties": {
                             "description": "description",
                             "protocol": "Tcp",
                             "sourcePortRange": "*",
-                            "destinationPortRange": "8548",
+                            "destinationPortRange": "26656",
                             "sourceAddressPrefix": "*",
                             "destinationAddressPrefix": "*",
                             "access": "Allow",
                             "priority": 102,
-                            "direction": "Inbound"
-                        }
-                    },
-                    {
-                        "name": "SequencerFeed",
-                        "properties": {
-                            "description": "description",
-                            "protocol": "Tcp",
-                            "sourcePortRange": "*",
-                            "destinationPortRange": "9642",
-                            "sourceAddressPrefix": "*",
-                            "destinationAddressPrefix": "*",
-                            "access": "Allow",
-                            "priority": 103,
                             "direction": "Inbound"
                         }
                     }
@@ -284,7 +270,7 @@
                 },
                 "protectedSettings": {
                     "commandToExecute": "sh install.sh",
-                    "fileUris": ["https://raw.githubusercontent.com/0xMSDN/buidl-4arbitrum/main/script/install.sh"]
+                    "fileUris": ["https://raw.githubusercontent.com/0xMSDN/buidl-4okc/main/script/install.sh"]
                 }
             }
         }
