@@ -1,6 +1,6 @@
-# Arbitrum Fullnode
+# okc quicstart node
 
-deploy arbitrum fullnode to azure <br>
+deploy okc quicstart node to azure <br>
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)]()
 
 ---
