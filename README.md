@@ -1,7 +1,7 @@
 # okc quicstart node
 
 deploy okc quicstart node to azure <br>
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https%3A%2F%2Fraw.githubusercontent.com%2F0xMSDN%2Fbuidl-4okc%2Fmain%2Ftemplate.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2F0xMSDN%2Fbuidl-4okc%2Fmain%2Ftemplate.json)
 
 ---
 
