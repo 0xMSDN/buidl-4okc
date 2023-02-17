@@ -13,8 +13,6 @@ CPU：8C
 
 内存：32GB
 
-硬盘：1～2TB
-
 ## 网络配置
 
 22
@@ -22,3 +20,9 @@ CPU：8C
 8545
 
 26656
+
+## 环境配置
+
+Linux : ubuntu 18.04 LTS
+
+docker：latest
