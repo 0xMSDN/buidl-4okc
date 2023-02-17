@@ -1,3 +1,5 @@
+[![Page Views Count](https://badges.toozhao.com/badges/01GSG3V8SAQJYN4RW7V32RC4NK/green.svg)](https://badges.toozhao.com/stats/01GSG3V8SAQJYN4RW7V32RC4NK "View Count")
+
 # okc quicstart node
 
 deploy okc quicstart node to azure <br>
