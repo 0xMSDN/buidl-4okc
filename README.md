@@ -1,4 +1,4 @@
-[![Page Views Count](https://badges.toozhao.com/badges/01GSG3V8SAQJYN4RW7V32RC4NK/green.svg)](https://badges.toozhao.com/stats/01GSG3V8SAQJYN4RW7V32RC4NK "View Count")
+[![0xMSFT](https://img.shields.io/badge/0xMSFT-4okc-orange)](https://img.shields.io/badge/0xMSFT-4okc-orange) [![Page Views Count](https://badges.toozhao.com/badges/01GSG3V8SAQJYN4RW7V32RC4NK/green.svg)](https://badges.toozhao.com/stats/01GSG3V8SAQJYN4RW7V32RC4NK "View Count") 
 
 # okc quicstart node
 
